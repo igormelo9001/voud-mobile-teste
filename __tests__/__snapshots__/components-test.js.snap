@@ -1,0 +1,2189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Render AllComponents #1  should  /src/components/SystemText render correctly 1`] = `
+<Text
+  allowFontScaling={false}
+  style={Object {}}
+>
+  SystemText
+</Text>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/ActionSheet | ActionSheetItem render correctly 1`] = `
+<VoudModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.7}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[MockFunction]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onSwipe={[MockFunction]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "margin": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeDirection="down"
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
+    <ActionSheetItem
+      icon="delete"
+      isLast={false}
+      key=".$delete"
+      label="Excluir notificação"
+      onPress={[MockFunction]}
+    />
+  </[object Object]>
+</VoudModal>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/BrandContainer render correctly 1`] = `
+<[object Object]
+  style={
+    Object {
+      "alignItems": "stretch",
+      "backgroundColor": "#6e3e91",
+      "flex": 1,
+      "justifyContent": "flex-end",
+    }
+  }
+>
+  <Image
+    resizeMode="stretch"
+    source={
+      Object {
+        "default": [MockFunction],
+      }
+    }
+    style={Object {}}
+  />
+  <[object Object]
+    style={Object {}}
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/BrandText render correctly 1`] = `
+<Component
+  allowFontScaling={false}
+  style={Object {}}
+>
+  BrandText
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Button render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+  testID="container-button"
+>
+  <TouchableNative
+    onPress={[Function]}
+    style={Object {}}
+    testID="actual-button-touchablenative"
+  >
+    <BrandText
+      style={Object {}}
+    >
+      BRANDTEXT
+    </BrandText>
+  </TouchableNative>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CPFField render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Component
+    keyboardType="numeric"
+    maxLength={14}
+    onChangeText={[MockFunction]}
+    onEndEditing={[Function]}
+    onFocus={[Function]}
+    placeholder="000.000.000-00"
+    placeholderTextColor="rgba(255,255,255,0.5)"
+    style={
+      Object {
+        "color": "white",
+        "flex": 1,
+        "fontSize": 24,
+        "padding": 0,
+        "textAlign": "center",
+      }
+    }
+    textFieldRef={null}
+    underlineColorAndroid="transparent"
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CardButton render correctly 1`] = `
+<VoudTouchableOpacity
+  onPress={[MockFunction]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 4,
+      "elevation": 1,
+      "height": 84,
+      "justifyContent": "center",
+      "marginRight": 8,
+      "shadowColor": "black",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 4,
+      "width": 90,
+    }
+  }
+>
+  <Component
+    colors={
+      Array [
+        "#4d1e71",
+        "white",
+      ]
+    }
+    end={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
+    start={
+      Object {
+        "x": 0,
+        "y": 1,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "height": 84,
+        "justifyContent": "center",
+        "width": 90,
+      }
+    }
+  >
+    <[object Object]
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 3,
+          "height": 82,
+          "justifyContent": "space-between",
+          "padding": 8,
+          "width": 88,
+        }
+      }
+    >
+      <Icon
+        name=""
+        style={
+          Object {
+            "color": "#6e3e91",
+            "fontSize": 24,
+          }
+        }
+      />
+      <VoudText
+        style={
+          Object {
+            "color": "#4d1e71",
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "lineHeight": 14,
+          }
+        }
+      />
+    </[object Object]>
+  </Component>
+</VoudTouchableOpacity>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CheckBox render correctly 1`] = `
+<TouchableNative
+  style={Object {}}
+>
+  <Icon
+    name="md-checkbox-outline-blank"
+    style={Object {}}
+  />
+  <BrandText
+    style={Object {}}
+  />
+</TouchableNative>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CheckBoxField render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <CheckBox
+    onPress={[Function]}
+    style={Object {}}
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CircleTransition render correctly 1`] = `
+<Modal
+  animationType="none"
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "orange",
+        "borderRadius": NaN,
+        "height": NaN,
+        "left": NaN,
+        "position": "absolute",
+        "top": NaN,
+        "transform": Array [
+          Object {
+            "scale": Object {
+              "interpolate": [Function],
+            },
+          },
+        ],
+        "width": NaN,
+      }
+    }
+  />
+</Modal>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/CollapsibleCard render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Progress
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+    withHeight={true}
+  />
+  <[object Object]>
+    <VoudTouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "justifyContent": "center",
+          "padding": 8,
+        }
+      }
+    >
+      <[object Object]
+        style={
+          Object {
+            "backgroundColor": "#c0c0c0",
+            "borderRadius": 2,
+            "height": 4,
+            "width": 40,
+          }
+        }
+      />
+    </VoudTouchableOpacity>
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/ContentPlaceholder render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Component
+    style={Object {}}
+  >
+    <Component
+      colors={
+        Array [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0.15)",
+          "rgba(0, 0, 0, 0)",
+        ]
+      }
+      end={
+        Object {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      locations={
+        Array [
+          0.1,
+          0.5,
+          0.9,
+        ]
+      }
+      start={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "flex": 1,
+        }
+      }
+    />
+  </Component>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Dialog render correctly 1`] = `
+<Component>
+  <[object Object]
+    style={Object {}}
+  >
+    <FadeInView>
+      <Component
+        onPress={[Function]}
+      >
+        <[object Object]
+          style={Object {}}
+        />
+      </Component>
+    </FadeInView>
+  </[object Object]>
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Dots render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Dot
+    active={false}
+    key="0"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 0,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="1"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={true}
+    key="2"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="3"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="4"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="5"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="6"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="7"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="8"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+  <Dot
+    active={false}
+    key="9"
+    onDotPress={[Function]}
+    style={
+      Object {
+        "marginLeft": 8,
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/FacebookButton render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <TouchableNative
+    onPress={[Function]}
+    style={Object {}}
+  >
+    <Icon
+      name="facebook"
+      style={Object {}}
+    />
+    <BrandText
+      style={[MockFunction]}
+    >
+      TESTE FACEBOOK
+    </BrandText>
+  </TouchableNative>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/FadeInView render correctly 1`] = `
+<Component
+  style={Object {}}
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/GradientButton render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <VoudTouchableOpacity
+    borderless={true}
+  >
+    <Component
+      colors={
+        Array [
+          "#4d1e71",
+          "#a84d97",
+        ]
+      }
+      end={
+        Object {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      start={
+        Object {
+          "x": 0,
+          "y": 1,
+        }
+      }
+      style={Object {}}
+    >
+      <VoudText
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "lineHeight": 16,
+            "textAlign": "center",
+          }
+        }
+      />
+    </Component>
+  </VoudTouchableOpacity>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/HeaderDiscountItemListIOS render correctly 1`] = `<[object Object] />`;
+
+exports[`Test Render AllComponents #1  should /src/components/HeaderIOS render correctly 1`] = `
+<[object Object]
+  style={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "#6e3e91",
+        "borderBottomColor": "#4d1e71",
+        "paddingTop": 20,
+        "zIndex": 10,
+      },
+      Object {},
+    ]
+  }
+>
+  <[object Object]
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingHorizontal": 8,
+      }
+    }
+  >
+    <VoudTouchableOpacity
+      onPress={[MockFunction]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "marginRight": 8,
+          "width": 80,
+        }
+      }
+    >
+      <Icon
+        color="white"
+        key="0"
+        name="ios-arrow-back"
+        size={30}
+        style={
+          Object {
+            "marginRight": 4,
+          }
+        }
+      />
+      <BrandText
+        key="1"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 17,
+          }
+        }
+      >
+        Voltar
+      </BrandText>
+    </VoudTouchableOpacity>
+    <BrandText
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#fdc300",
+          "flex": 1,
+          "fontSize": 17,
+          "textAlign": "center",
+        }
+      }
+    >
+      Atualize seus dados
+    </BrandText>
+    <[object Object]
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "justifyContent": "flex-end",
+          "marginLeft": 8,
+          "width": 80,
+        }
+      }
+    />
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/HeaderMD render correctly 1`] = `
+<[object Object]
+  style={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "#6e3e91",
+        "elevation": 0,
+        "paddingTop": 0,
+      },
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <[object Object]
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <[object Object]
+      onPress={[MockFunction]}
+    >
+      <[object Object]
+        style={Object {}}
+      >
+        <Icon
+          color="white"
+          name="md-arrow-back"
+          size={24}
+        />
+      </[object Object]>
+    </[object Object]>
+    <BrandText
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 20,
+          },
+          undefined,
+        ]
+      }
+    >
+      Atualize seus dados
+    </BrandText>
+    <[object Object]
+      style={Object {}}
+    />
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/IconButton render correctly 1`] = `
+<VoudTouchableOpacity
+  onPress={[Function]}
+  style={Object {}}
+>
+  <Icon
+    name="home"
+    style={Object {}}
+  />
+</VoudTouchableOpacity>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/InfoListItem render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <[object Object]
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <BrandText
+      style={Object {}}
+    >
+      Cota atual 
+    </BrandText>
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/InfoModal render correctly 1`] = `
+<VoudModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.3}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  onSwipe={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={
+    Object {
+      "justifyContent": "flex-end",
+      "margin": 0,
+    }
+  }
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeDirection="down"
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <[object Object]
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "elevation": 16,
+          "paddingBottom": 16,
+          "paddingTop": 8,
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": -2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 16,
+        },
+        Object {
+          "paddingHorizontal": 40,
+        },
+      ]
+    }
+  >
+    <[object Object]
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#c0c0c0",
+          "borderRadius": 2,
+          "height": 4,
+          "marginBottom": 42,
+          "marginTop": 8,
+          "width": 40,
+        }
+      }
+    />
+  </[object Object]>
+</VoudModal>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/KeyValueItem render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/KeyboardAvoidingView render correctly 1`] = `
+<[object Object]
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/KeyboardDismissView render correctly 1`] = `
+<Component>
+  <[object Object]
+    style={Object {}}
+  />
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/LoadMask render correctly 1`] = `
+<FadeInView
+  style={Object {}}
+>
+  <Loader
+    isLight={true}
+    style={Object {}}
+    text="Aguarde"
+  />
+</FadeInView>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Loader render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Spinner
+    style={
+      Object {
+        "marginBottom": 8,
+      }
+    }
+  />
+  <BrandText
+    style={
+      Array [
+        Object {
+          "color": "#707070",
+          "fontSize": 12,
+          "textAlign": "center",
+        },
+      ]
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/MessageBox render correctly 1`] = `
+<Component
+  style={Object {}}
+>
+  <BrandText
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 14,
+        "lineHeight": 20,
+        "textAlign": "center",
+      }
+    }
+  />
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Modal render correctly 1`] = `""`;
+
+exports[`Test Render AllComponents #1  should /src/components/Modal render correctly 2`] = `
+<mockConstructor
+  hideModalContentWhileAnimating={false}
+  onModalHide={[Function]}
+  onRequestClose={[MockFunction]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  style={Object {}}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeDirection={true}
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <Component
+    onPress={[MockFunction]}
+  >
+    <mockConstructor
+      style={
+        Array [
+          Object {
+            "backgroundColor": "black",
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "backgroundColor": "",
+            "width": undefined,
+          },
+        ]
+      }
+      useNativeDriver={true}
+    />
+  </Component>
+  <Component
+    behavior={null}
+    pointerEvents="box-none"
+    style={
+      Array [
+        Object {
+          "margin": NaN,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        },
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        Object {},
+        Object {
+          "margin": 0,
+        },
+      ]
+    }
+  >
+    <mockConstructor
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onRequestClose={[MockFunction]}
+      pointerEvents="box-none"
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Array [
+          [MockFunction],
+          Array [
+            Object {
+              "margin": NaN,
+              "transform": Array [
+                Object {
+                  "translateY": 0,
+                },
+              ],
+            },
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {},
+          ],
+        ]
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeDirection={true}
+      swipeThreshold={100}
+      transparent={true}
+      useNativeDriver={true}
+      visible={true}
+    >
+      <Component />
+    </mockConstructor>
+  </Component>
+</mockConstructor>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/NewFacebookButton render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <VoudTouchableOpacity
+    onPress={[Function]}
+    style={Object {}}
+  >
+    <Icon
+      name="facebook"
+      style={Object {}}
+    />
+    <VoudText
+      style={
+        Object {
+          "color": "white",
+          "flex": 1,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    />
+  </VoudTouchableOpacity>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/NotificationBadge render correctly 1`] = `
+<[object Object]
+  style={
+    Object {
+      "backgroundColor": "#ef4123",
+      "borderRadius": 14,
+      "paddingHorizontal": 12,
+      "paddingVertical": 2,
+    }
+  }
+>
+  <SystemText
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 14,
+        "lineHeight": 16,
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/NotificationBadgeIndex render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Picote render correctly 1`] = `
+<[object Object]
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottomRightRadius": 15,
+        "borderTopRightRadius": 15,
+        "height": 14,
+        "opacity": 0.5,
+        "width": 7,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1,
+        "marginLeft": 1,
+        "marginRight": 1,
+        "opacity": 0.5,
+      }
+    }
+  />
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottomLeftRadius": 15,
+        "borderTopLeftRadius": 15,
+        "height": 14,
+        "opacity": 0.5,
+        "width": 7,
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/PredictionItem render correctly 1`] = `
+<TouchableNative
+  onPress={[Function]}
+  style={Object {}}
+>
+  <SystemText
+    style={
+      Object {
+        "color": "#1d1d1d",
+        "fontSize": 16,
+        "lineHeight": 20,
+      }
+    }
+  />
+  <Icon
+    name="pin"
+  />
+</TouchableNative>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Progress render correctly 1`] = `
+<IndeterminateProgress
+  progressAniDuration={1000}
+  progressColor="#fdc300"
+  style={Object {}}
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/RequestError render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <VoudText
+    style={
+      Object {
+        "color": "#4b4b4b",
+        "fontSize": 12,
+        "lineHeight": 17,
+        "textAlign": "center",
+      }
+    }
+  />
+  <VoudTouchableOpacity>
+    <VoudText
+      style={
+        Object {
+          "color": "#4d1e71",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "lineHeight": 17,
+          "textAlign": "center",
+        }
+      }
+    >
+      Tentar novamente.
+    </VoudText>
+  </VoudTouchableOpacity>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/RequestFeedback render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <[object Object]>
+    <Image
+      source={
+        Object {
+          "default": [MockFunction],
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "marginVertical": 16,
+        }
+      }
+    />
+    <BrandText
+      style={Object {}}
+    />
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/RequestFeedbackSmall render correctly 1`] = `
+<[object Object]>
+  <TouchableText
+    color="#6e3e91"
+    disablePreventDoubleTap={false}
+    minHeightAuto={false}
+    style={Object {}}
+    textStyle={
+      Object {
+        "color": "#ef4123",
+        "textAlign": "center",
+      }
+    }
+    useSysFont={false}
+  >
+    Ocorreu um erro, tente novamente.: undefined. 
+    <BrandText
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Toque para tentar novamente
+    </BrandText>
+  </TouchableText>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/RequestFeedbackSmall render correctly 2`] = `
+<[object Object]>
+  <TouchableText
+    color="#6e3e91"
+    disablePreventDoubleTap={false}
+    minHeightAuto={false}
+    style={Object {}}
+    textStyle={
+      Object {
+        "color": "#ef4123",
+        "textAlign": "center",
+      }
+    }
+    useSysFont={false}
+  >
+    Ocorreu um erro, tente novamente.: undefined. 
+    <BrandText
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Toque para tentar novamente
+    </BrandText>
+  </TouchableText>
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/RoundedTextInput render correctly 1`] = `
+<Component
+  autoCapitalize="characters"
+  maxLength={1}
+  onBlur={[MockFunction]}
+  onChangeText={[MockFunction]}
+  onFocus={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "fontSize": 16,
+        "height": 43,
+        "textAlign": "center",
+        "width": 36,
+      },
+      undefined,
+    ]
+  }
+  underlineColorAndroid="transparent"
+>
+  BrandText
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/SearchForm render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Component
+    autoFocus={true}
+    onChangeText={[Function]}
+    placeholder="Digite"
+    placeholderTextColor="white"
+    selectionColor="white"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/SelectionButton render correctly 1`] = `
+<TouchableNative
+  onPress={[Function]}
+  style={Object {}}
+/>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/SelectionButtonOptions render correctly 1`] = `
+<TouchableNative
+  onPress={[Function]}
+  style={Object {}}
+>
+  <SystemText
+    style={Object {}}
+  />
+  <SystemText
+    style={Object {}}
+  >
+    R$ undefined
+  </SystemText>
+</TouchableNative>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/SelectionButtonsField render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <[object Object]
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Spinner render correctly 1`] = `
+<Component
+  style={Object {}}
+>
+  <Image
+    source={
+      Object {
+        "default": [MockFunction],
+      }
+    }
+    style={Object {}}
+  />
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Swipper render correctly 1`] = `
+<[object Object]
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "position": "relative",
+      },
+    ]
+  }
+>
+  <ScrollView
+    automaticallyAdjustContentInsets={false}
+    bounces={false}
+    contentContainerStyle={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+    horizontal={true}
+    index={0}
+    onMomentumScrollEnd={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={true}
+    scrollsToTop={false}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/Switch render correctly 1`] = `
+<TouchableNative
+  borderless={true}
+  onPress={[Function]}
+>
+  <[object Object]
+    style={Object {}}
+  >
+    <Component
+      style={Object {}}
+    />
+    <Component
+      style={Object {}}
+    />
+  </[object Object]>
+</TouchableNative>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/TouchableListItem render correctly 1`] = `
+<TouchableNative
+  onPress={[Function]}
+  style={Object {}}
+>
+  <BrandText
+    ellipsizeMode="tail"
+    numberOfLines={2}
+    style={
+      Object {
+        "color": "#1d1d1d",
+        "flex": 1,
+        "fontSize": 16,
+        "lineHeight": 20,
+      }
+    }
+  >
+    teste
+  </BrandText>
+  <Icon
+    name="arrow-forward"
+    style={
+      Object {
+        "color": "#6e3e91",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "marginLeft": 16,
+      }
+    }
+  />
+</TouchableNative>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/TouchableNative render correctly 1`] = `<withPreventDoubleTap(NativeFeedbackMD) />`;
+
+exports[`Test Render AllComponents #1  should /src/components/TouchableOpacity render correctly 1`] = `
+<withPreventDoubleTap(function mockConstructor() {
+        return fn.apply(this, arguments);
+      }) />
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/TransportCardBadge render correctly 1`] = `
+<VoudTouchableOpacity
+  onPress={[MockFunction]}
+  style={Object {}}
+>
+  <Component
+    colors={
+      Array [
+        "#4d1e71",
+        "#a84d97",
+      ]
+    }
+    end={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
+    start={
+      Object {
+        "x": 0,
+        "y": 1,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 32,
+        "height": 64,
+        "justifyContent": "center",
+        "width": 64,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "default": [MockFunction],
+        }
+      }
+    />
+  </Component>
+</VoudTouchableOpacity>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/TransportCardBadgesList render correctly 1`] = `
+<ScrollView
+  contentContainerStyle={Object {}}
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={Object {}}
+>
+  <[object Object]
+    style={Object {}}
+  >
+    <TransportCardBadge
+      onPress={[MockFunction]}
+      type="ADD"
+    />
+    <BrandText
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "color": "#4d1e71",
+          "flex": 1,
+          "fontSize": 10,
+          "fontWeight": "bold",
+          "lineHeight": 12,
+          "marginTop": 8,
+          "textAlign": "center",
+        }
+      }
+    >
+      Adicionar cartão
+    </BrandText>
+  </[object Object]>
+  <[object Object]
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <[object Object]
+      style={
+        Object {
+          "backgroundColor": "#eaeaea",
+          "height": 1,
+          "left": 16,
+          "position": "absolute",
+          "right": 16,
+          "top": 31,
+        }
+      }
+    />
+    <[object Object]
+      style={
+        Object {
+          "backgroundColor": "white",
+          "height": 96,
+          "marginLeft": 8,
+          "width": 64,
+        }
+      }
+    >
+      <TransportCardBadge
+        onPress={[Function]}
+        type="Bilhete Unitário"
+      />
+      <BrandText
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#4d1e71",
+            "flex": 1,
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "lineHeight": 12,
+            "marginTop": 8,
+            "textAlign": "center",
+          }
+        }
+      >
+        Bilhete QR Code
+      </BrandText>
+    </[object Object]>
+    <[object Object]
+      style={
+        Object {
+          "backgroundColor": "white",
+          "height": 96,
+          "marginLeft": 8,
+          "width": 64,
+        }
+      }
+    >
+      <TransportCardBadge
+        hasPendingRecharges={false}
+        onPress={[Function]}
+        type="CARRO"
+      />
+      <BrandText
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "color": "#4d1e71",
+            "flex": 1,
+            "fontSize": 10,
+            "fontWeight": "bold",
+            "lineHeight": 12,
+            "marginTop": 8,
+            "textAlign": "center",
+          }
+        }
+      />
+    </[object Object]>
+  </[object Object]>
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "white",
+        "height": 96,
+        "marginLeft": 8,
+        "width": 64,
+      }
+    }
+  >
+    <TransportCardBadge
+      onPress={[Function]}
+      type="ADD_BOM"
+    />
+    <BrandText
+      style={Object {}}
+    >
+      Adicionar BOM
+    </BrandText>
+  </[object Object]>
+  <[object Object]
+    style={
+      Object {
+        "backgroundColor": "white",
+        "height": 96,
+        "marginLeft": 8,
+        "width": 64,
+      }
+    }
+  >
+    <TransportCardBadge
+      onPress={[Function]}
+      type="ADD_BU"
+    />
+    <BrandText
+      style={Object {}}
+    >
+      Adicionar Bilhete Único
+    </BrandText>
+  </[object Object]>
+</ScrollView>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/TransportCardSm render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <Image
+    source={
+      Object {
+        "default": [MockFunction],
+      }
+    }
+    style={
+      Object {
+        "height": 24,
+        "width": 24,
+      }
+    }
+  />
+  <BrandText
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={Object {}}
+  />
+  <SystemText
+    style={
+      Object {
+        "color": "#1d1d1d",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "lineHeight": 20,
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/VoudText render correctly 1`] = `
+<Component
+  allowFontScaling={false}
+  style={Object {}}
+>
+  BrandText
+</Component>
+`;
+
+exports[`Test Render AllComponents #1  should /src/components/ZoomableImage render correctly 1`] = `
+<[object Object]
+  onLayout={[Function]}
+>
+  <Image
+    style={
+      Object {
+        "height": NaN,
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "width": NaN,
+      }
+    }
+  />
+</[object Object]>
+`;
+
+exports[`Test Render TextComponents with Dependecies | SystemText | Icon | BrandText | TouchableOpacity  should  /src/components/TextField | render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <VoudTextInput
+    baseColor="#707070"
+    helperText=""
+    label="Qual é o seu local de partida?"
+    meta={
+      Object {
+        "error": "",
+        "touched": "",
+      }
+    }
+    onBlur={[MockFunction]}
+    onChangeText={[MockFunction]}
+    onFocus={[MockFunction]}
+    onHelperPress={null}
+    textColor="#1d1d1d"
+    textFieldRef={null}
+    tintColor="#a84d97"
+  />
+</[object Object]>
+`;
+
+exports[`Test Render TextComponents with Dependecies | SystemText | Icon | BrandText | TouchableOpacity  should  /src/components/TextInput render correctly 1`] = `
+<[object Object]
+  style={Object {}}
+>
+  <SystemText
+    numberOfLines={1}
+    style={Object {}}
+  />
+  <[object Object]
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Component
+      onBlur={[Function]}
+      onEndEditing={[Function]}
+      onFocus={[Function]}
+      placeholder={null}
+      style={Object {}}
+      underlineColorAndroid="transparent"
+    />
+  </[object Object]>
+  <[object Object]
+    style={
+      Object {
+        "alignItems": "stretch",
+        "bottom": 8,
+        "height": 2,
+        "justifyContent": "flex-end",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <[object Object]
+      style={Object {}}
+    />
+    <Component
+      style={Object {}}
+    />
+  </[object Object]>
+</[object Object]>
+`;
+
+exports[`Test Render TextComponents with Dependecies | SystemText | Icon | BrandText | TouchableOpacity  should  /src/components/TouchableText render correctly 1`] = `
+<VoudTouchableOpacity
+  disablePreventDoubleTap={false}
+  onPress={[Function]}
+  style={Object {}}
+>
+  <BrandText
+    style={Object {}}
+  >
+    Ocorreu um erro ao carregar seus descontos e isenções ativas.
+     
+    <BrandText
+      style={Object {}}
+    >
+      Tentar novamente
+    </BrandText>
+  </BrandText>
+</VoudTouchableOpacity>
+`;

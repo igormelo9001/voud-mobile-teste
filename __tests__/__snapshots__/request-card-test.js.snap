@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Request Card Component should render correctly 1`] = `
+<InfoModal>
+  <mockConstructor
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
+    <mockConstructor
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+      />
+    </mockConstructor>
+    <VoudText
+      style={
+        Object {
+          "color": "#4d1e71",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "lineHeight": 24,
+          "textAlign": "center",
+        }
+      }
+    />
+    <VoudText
+      style={
+        Object {
+          "color": "#707070",
+          "fontSize": 14,
+          "lineHeight": 20,
+          "paddingVertical": 16,
+          "textAlign": "center",
+        }
+      }
+    />
+    <GradientButton
+      large={true}
+      onPress={[Function]}
+      text="Acessar ou Cadastrar"
+    />
+  </mockConstructor>
+</InfoModal>
+`;

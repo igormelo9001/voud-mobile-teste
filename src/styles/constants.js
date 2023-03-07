@@ -1,0 +1,47 @@
+export const colors = {
+  BRAND_PRIMARY: "#6e3e91",
+  BRAND_PRIMARY_LIGHT: "#8c368c",
+  BRAND_PRIMARY_LIGHTER: "#a84d97",
+  BRAND_PRIMARY_LIGHTEST: "#FF00CF",
+  BRAND_PRIMARY_DARKER: "#4d1e71",
+  BRAND_SECONDARY: "#fdc300",
+  BRAND_SECONDARY_DARKER: "#f39200",
+  BRAND_SUCCESS: "#5dda74",
+  BRAND_SUCCESS_LIGHT: "rgba(93,218,116, .5)",
+  BRAND_SUCCESS_LIGHTER: "#d3d800",
+  BRAND_SUCCESS_DARK: "#429321",
+  BRAND_ERROR: "#ef4123",
+  BRAND_NOTIFICATION: "#FF176B",
+  GREEN: "#0CCA9C",
+  GRAY: "#707070",
+  GRAY_DARK: "#4b4b4b",
+  GRAY_DARKER: "#1d1d1d",
+  GRAY_LIGHT: "#c0c0c0",
+  GRAY_LIGHT2: "#dadada",
+  GRAY_LIGHT3: "#7A7A7A",
+  GRAY_LIGHTER: "#eaeaea",
+  GRAY_LIGHTEST: "#f6f6f6",
+  CARD_C: "#007dc2",
+  CARD_E: "#fdc300",
+  CARD_VT: "#ef4123",
+  CARD_BU: "#e2001a",
+  OVERLAY: "rgba(0, 0, 0, .4)",
+  OVERLAY_LIGHT: "rgba(0, 0, 0, .1)",
+  OVERLAY_DARK: "rgba(0, 0, 0, .8)",
+  WHITE: "#FFF",
+  YELLOW: "#FEC10E",
+  YELLOW_GOLDEN: "#FDC300",
+  BOM_COLOR: "#234A76",
+  BU_COLOR: "#B40016",
+  CARD_BILHETE_UNITARIO_METRO: "#014382",
+  CARD_BILHETE_UNITARIO_CPTM: "#EE3338",
+  CARD_LEGAL_PRIMARY: "#DA323A",
+  CARD_LEGAL_SECUNDARY: "#E16238"
+};
+
+export const dimensions = {
+  notchSpace: {
+    top: 16,
+    bottom: 16
+  }
+};

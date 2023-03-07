@@ -1,0 +1,87 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+# platform :ios, '9.0'
+
+source 'https://bitbucket.org/datami/ios-podspec.git'
+
+target 'voud' do
+  
+  rn_path = '../node_modules/react-native' # This path is likely to be `../node_modules/react-native` in your own project.
+  rn_maps_path = '../node_modules/react-native-maps' # This path is likely to be `../node_modules/react-native-maps` in your own project.
+
+  # Comment the next line if you don't want to use dynamic frameworks
+  # Your 'node_modules' directory is probably in the root of your project,
+  # but if not, adjust the `:path` accordingly
+  pod 'React', path: rn_path, subspecs: [
+    'Core',
+    'CxxBridge',
+    'DevSupport',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+  ]
+  
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  # Third party deps podspec link
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+
+
+  # Required by RNFirebase pod 'Firebase/Core', '~> 6.3.0'f
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/RemoteConfig'
+  pod 'GoogleIDFASupport', '~> 3.14.0'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'Firebase/InAppMessagingDisplay'
+
+  pod 'FacebookSDK'
+  pod 'FacebookSDK/LoginKit', '5.0'
+  pod 'FacebookSDK/PlacesKit'
+  pod 'FacebookSDK/ShareKit'
+  pod 'FBSDKMessengerShareKit'
+  
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'react-native-maps',:path =>  rn_maps_path
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+  
+  
+  pod 'Firebase/RemoteConfig'
+  #pod 'Firebase/Performance', '~> 6.3.0'
+  #pod 'Fabric', '~> 1.10.2'
+  #pod 'Crashlytics', '~> 3.13.2'
+
+
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'react-native-google-maps'
+      target.build_configurations.each do |config|
+        config.build_settings['CLANG_ENABLE_MODULES'] = 'No'
+      end
+    end
+    if target.name == "React"
+      target.remove_from_project
+    end
+  end
+end

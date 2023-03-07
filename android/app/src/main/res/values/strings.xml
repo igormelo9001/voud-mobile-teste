@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">VouD</string>
+    <string name="facebook_app_id">583378141997491</string>
+
+    <string name="smisdk_apikey">ak-e138ed86-5868-43d6-85d2-39fbdcc24613</string>
+    <bool name="smisdk_show_messaging">false</bool>
+
+</resources>

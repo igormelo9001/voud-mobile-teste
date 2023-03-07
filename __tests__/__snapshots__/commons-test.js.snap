@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Result from adyenEncrypt  should /src/components/adyenEncrypt result not undefined 1`] = `
+Object {
+  "cvc": 737,
+  "expiryMonth": "10",
+  "expiryYear": "2020",
+  "holderName": "Teste",
+  "number": 5555444433331111,
+  "publicKey": 8415505105630389,
+}
+`;

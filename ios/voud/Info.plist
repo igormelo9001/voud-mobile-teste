@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> Build Phase</key>
+	<string>$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>VouD</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.7.7014</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb583378141997491</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>583378141997491</string>
+	<key>FacebookDisplayName</key>
+	<string>VouD</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>uber</string>
+		<string>cabify</string>
+		<string>taxis99</string>
+		<string>ladydriver</string>
+		<string>easytaxi</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>cloudmi.datami.com</key>
+			<dict>
+				<key>NSAllowsLocalNetworking</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Precisamos acessar sua conexão bluetooth para fazer upload de dados do seu dispositivo para relatórios de falhas.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Precisamos acessar sua conexão bluetooth para fazer upload de dados do seu dispositivo para relatórios de falhas.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Your message to user when the camera is accessed for the first time</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Autorize o acesso ao serviço de geolocalização do seu aparelho para que o VouD te direcione para o ponto de recarga mais próximo de você!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Autorize o acesso ao serviço de geolocalização do seu aparelho para que o VouD te direcione para o ponto de recarga mais próximo de você!</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Autorize o acesso ao serviço de geolocalização do seu aparelho para que o VouD te direcione para o ponto de recarga mais próximo de você!</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Raleway_bold_italic.ttf</string>
+		<string>Raleway_bold.ttf</string>
+		<string>Raleway_light_italic.ttf</string>
+		<string>Raleway_light.ttf</string>
+		<string>Raleway_italic.ttf</string>
+		<string>Raleway.ttf</string>
+		<string>voud.ttf</string>
+		<string>Roboto_bold.ttf</string>
+		<string>Roboto.ttf</string>
+		<string>opensans_bold_italic.ttf</string>
+		<string>opensans_bold.ttf</string>
+		<string>opensans_italic.ttf</string>
+		<string>opensans_light_italic.ttf</string>
+		<string>opensans_light.ttf</string>
+		<string>opensans_semibold_italic.ttf</string>
+		<string>opensans_semibold.ttf</string>
+		<string>opensans.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

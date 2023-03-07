@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "880274983501",
+    "firebase_url": "https://voud-autopass.firebaseio.com",
+    "project_id": "voud-autopass",
+    "storage_bucket": "voud-autopass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880274983501:android:a729b9e1ae56f2ec",
+        "android_client_info": {
+          "package_name": "br.com.autopass.voud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880274983501-bhqov2s5ltb6ct8sb274dqgli58gsaii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfvv9lgW3Lisf478v8OxHjjDnxtKSYFZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
